@@ -27,7 +27,7 @@ function App() {
   return (
     <div className='w-[90%] mx-auto'>
       <h1 className='text-4xl font-bold py-5 text-center'>Show All Product</h1>
-      <div className='md:flex md:justify-between md:my-5 gap-5 md:gap-12'>
+      <div className='md:flex md:justify-between space-y-5 md:my-5 gap-5 md:gap-12'>
         <Carts handleCart={handleCart}></Carts>
         <Details cart={cart} handleDelete={handleDelete}></Details>
         <ToastContainer />
