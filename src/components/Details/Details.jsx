@@ -5,7 +5,7 @@ const Details = ({ cart, handleDelete }) => {
     return (
         <div className='w-full'>
             <div className='bg-white rounded-xl p-4'>
-                <h4 className='text-center p-3 text-3xl text-black font-extrabold'>Cart Details: {cart.length}</h4>
+                <h4 className='text-center p-3 text-3xl text-black font-extrabold'>Product Details: {cart.length}</h4>
                 <hr className='border-2' />
                 <div className='space-y-4 text-white p-5'>
                     {cart.map((item, index) => (
