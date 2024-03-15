@@ -17,7 +17,6 @@ const Details = ({ cart, handleDelete }) => {
                     ))}
                 </div>
                 <hr className='border-2' />
-                {/* <p className='text-2xl font-bold text-black text-center'>Total Price : {cart.reduce((p, c) => p + c.price, 0)}</p> */}
                 <p className='text-2xl font-bold text-black text-center'>Total Price : {Math.round(prices)}</p>
             </div>
         </div>
